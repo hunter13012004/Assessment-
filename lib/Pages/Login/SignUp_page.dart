@@ -73,7 +73,8 @@ class _SignupPageState extends State<SignupPage> {
                 ),
                 TextFormField(
                   validator: (value) {
-                    if (value != logincontroller.passwordcontroller) {
+                    if (value !=
+                        logincontroller.passwordcontroller.text.trim()) {
                       return 'passwords do not match';
                     }
                     return null;
