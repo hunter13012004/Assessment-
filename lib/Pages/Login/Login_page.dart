@@ -1,6 +1,7 @@
 import 'package:cta/Pages/Login/SignUp_page.dart';
 import 'package:cta/Pages/controller/LoginController.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 class LoginPage extends StatefulWidget {
@@ -33,7 +34,7 @@ class _LoginPageState extends State<LoginPage> {
                       color: Colors.white),
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 20.h,
                 ),
                 TextFormField(
                   validator: (value) {
@@ -48,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
                   controller: logincontroller.emailcontroller,
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 20.h,
                 ),
                 TextFormField(
                   validator: (value) {
@@ -64,10 +65,10 @@ class _LoginPageState extends State<LoginPage> {
                   controller: logincontroller.passwordcontroller,
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 20.h,
                 ),
                 Container(
-                  width: 200,
+                  width: 200.w,
                   decoration: BoxDecoration(
                       color: Colors.white10,
                       borderRadius: BorderRadius.circular(12)),

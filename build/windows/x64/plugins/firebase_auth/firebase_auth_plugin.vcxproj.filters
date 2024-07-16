@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\flutter\cta\windows\flutter\ephemeral\.plugin_symlinks\firebase_auth\windows\firebase_auth_plugin_c_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\flutter\cta\windows\flutter\ephemeral\.plugin_symlinks\firebase_auth\windows\firebase_auth_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\flutter\cta\windows\flutter\ephemeral\.plugin_symlinks\firebase_auth\windows\messages.g.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\flutter\cta\windows\flutter\ephemeral\.plugin_symlinks\firebase_auth\windows\include\firebase_auth\firebase_auth_plugin_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\flutter\cta\windows\flutter\ephemeral\.plugin_symlinks\firebase_auth\windows\firebase_auth_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\flutter\cta\windows\flutter\ephemeral\.plugin_symlinks\firebase_auth\windows\messages.g.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\flutter\cta\build\windows\x64\generated\firebase_auth\plugin_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\flutter\cta\windows\flutter\ephemeral\.plugin_symlinks\firebase_auth\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C91A9B51-FE6B-37A0-808A-BB33F0DB401D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{495136AE-7CBC-3C67-82B7-AEC38EF9B981}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

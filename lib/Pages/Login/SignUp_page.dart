@@ -1,6 +1,7 @@
 import 'package:cta/Pages/Login/Login_page.dart';
 import 'package:cta/Pages/controller/LoginController.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
@@ -35,7 +36,7 @@ class _SignupPageState extends State<SignupPage> {
                       color: Colors.white),
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 20.h,
                 ),
                 TextFormField(
                   validator: (value) {
@@ -51,7 +52,7 @@ class _SignupPageState extends State<SignupPage> {
                   controller: logincontroller.emailcontroller,
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 20.h,
                 ),
                 TextFormField(
                   validator: (value) {
@@ -68,7 +69,7 @@ class _SignupPageState extends State<SignupPage> {
                   controller: logincontroller.passwordcontroller,
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 20.h,
                 ),
                 TextFormField(
                   validator: (value) {
@@ -85,10 +86,10 @@ class _SignupPageState extends State<SignupPage> {
                   controller: logincontroller.confirmpasswordcontroller,
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 20.h,
                 ),
                 Container(
-                  width: 200,
+                  width: 200.w,
                   decoration: BoxDecoration(
                       color: Colors.white10,
                       borderRadius: BorderRadius.circular(12)),

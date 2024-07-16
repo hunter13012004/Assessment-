@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -31,15 +28,9 @@ class DefaultFirebaseOptions {
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -59,4 +50,32 @@ class DefaultFirebaseOptions {
     projectId: 'assesment-740f9',
     storageBucket: 'assesment-740f9.appspot.com',
   );
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyBvEnCGoV-hj_BvaTC_FDjgowxTzP12sp8',
+    appId: '1:273734979703:web:4cf9d0c5f884a5930d7672',
+    messagingSenderId: '273734979703',
+    projectId: 'assesment-740f9',
+    authDomain: 'assesment-740f9.firebaseapp.com',
+    storageBucket: 'assesment-740f9.appspot.com',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyDzhBOMrxkk3PyNQHgkT5RUy469COphl6s',
+    appId: '1:273734979703:ios:a476475758fb5d980d7672',
+    messagingSenderId: '273734979703',
+    projectId: 'assesment-740f9',
+    storageBucket: 'assesment-740f9.appspot.com',
+    iosBundleId: 'com.example.cta',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyBvEnCGoV-hj_BvaTC_FDjgowxTzP12sp8',
+    appId: '1:273734979703:web:4a73388619ef21f00d7672',
+    messagingSenderId: '273734979703',
+    projectId: 'assesment-740f9',
+    authDomain: 'assesment-740f9.firebaseapp.com',
+    storageBucket: 'assesment-740f9.appspot.com',
+  );
+
 }
